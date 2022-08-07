@@ -7,9 +7,9 @@
 ```js
 import SoftwareDeveloper from 'India';
 class Bio extends SoftwareDeveloper {
-  name     = 'Parag Tharani';
+  name     = 'Lucky Yadav';
   title    = 'Software Engineer' || 'Full Stack Web Developer';
-  location = 'Indore, Madhya Pradesh, India';
+  location = 'Narnaul,  Haryana, India';
   availability = "Available to hire!!";
 }
 class Skills extends SoftwareDeveloper {
@@ -24,7 +24,7 @@ class Skills extends SoftwareDeveloper {
 </p>
 </br>
 
-<!-- 👋 Hello World!, I’m @Parag-Tharani-> A Full Stack Web Developer -->
+<!-- 👋 Hello World!, I’m @Lucky-yadav-> A Full Stack Web Developer -->
 - 👀 I’m interested in coding and exploring new technologies in Web 2 as well as in Web 3 ...
 - 🌱 I’m currently learning Web Development and UI/UX ... 
 - :mailbox:Let's Connect : [![Linkedin Badge](https://img.shields.io/badge/-ParagTharani-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/parag-tharani-184646222/) [![Gmail Badge](https://img.shields.io/badge/-ParagTharani24@gmail.com-red?style=flat&logo=Gmail&logoColor=white)](mailto:ParagTharani24@gmail.com)
