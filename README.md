@@ -27,15 +27,15 @@ class Skills extends SoftwareDeveloper {
 <!-- 👋 Hello World!, I’m @Lucky-yadav-> A Full Stack Web Developer -->
 - 👀 I’m interested in coding and exploring new technologies in Web 2 as well as in Web 3 ...
 - 🌱 I’m currently learning Web Development and UI/UX ... 
-- :mailbox:Let's Connect : [![Linkedin Badge](https://img.shields.io/badge/-ParagTharani-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/parag-tharani-184646222/) [![Gmail Badge](https://img.shields.io/badge/-ParagTharani24@gmail.com-red?style=flat&logo=Gmail&logoColor=white)](mailto:ParagTharani24@gmail.com)
+- :mailbox:Let's Connect : [![Linkedin Badge](https://img.shields.io/badge/-Lucky_Yadav-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/lucky-yadav-b523a2221/) [![Gmail Badge](https://img.shields.io/badge/-ParagTharani24@gmail.com-red?style=flat&logo=Gmail&logoColor=white)](mailto:ParagTharani24@gmail.com)
   <br><br><br>
   
   
   <h2> 🔥 Github Stats:</h2>
   
   <div>
-  <img width="50%"  src="https://github-readme-stats.vercel.app/api?username=Parag-Tharani&show_icons=true&theme=radical" />
-  <img width="49%"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Parag-Tharani&layout=compact&theme=radical" />
+  <img width="50%"  src="https://github-readme-stats.vercel.app/api?username=Lucky-Yadav&show_icons=true&theme=radical" />
+  <img width="49%"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lucky-Yadav&layout=compact&theme=radical" />
   </div>
   </br></br></br>
 
@@ -57,4 +57,4 @@ class Skills extends SoftwareDeveloper {
 
  <h2>Contribution Graph</h2>
 
-  <a href="https://github.com/Parag-Tharani"><img alt="DenverCoder1's Activity Graph" src="https://denvercoder1-activity-graph.herokuapp.com/graph/?username=Parag-Tharani&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a><br><br>
+  <a href="https://github.com/Lucky-Yadav"><img alt="DenverCoder1's Activity Graph" src="https://denvercoder1-activity-graph.herokuapp.com/graph/?username=Lucky-Yadav&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a><br><br>
