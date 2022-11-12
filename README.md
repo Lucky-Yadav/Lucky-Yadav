@@ -38,6 +38,7 @@ class Skills extends SoftwareDeveloper {
   <img width="49%"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lucky-Yadav&layout=compact&theme=radical" />
   </div>
   </br></br></br>
+  [![GitHub Streak](https://streak-stats.demolab.com/?user=Lucky-Yadav)](https://git.io/streak-stats)]
 
 
   <h2>:bulb: Languages & Frameworks </h2>
