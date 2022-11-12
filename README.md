@@ -19,7 +19,7 @@ class Skills extends SoftwareDeveloper {
 }
 ```
 <br/>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Lucky-Tharani&label=Profile%20views&color=0e75b6&style=flat" alt="views" />
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=Lucky-Yadav&label=Profile%20views&color=0e75b6&style=flat" alt="views" />
 <a href="https://github.com/Lucky-Yadav?tab=followers"><img src="https://img.shields.io/github/followers/Lucky-yadav?label=Followers&style=social" alt="GitHub Badge"></a>
 </p>
 </br>
@@ -38,7 +38,7 @@ class Skills extends SoftwareDeveloper {
   <img width="49%"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lucky-Yadav&layout=compact&theme=radical" />
   </div>
   </br></br></br>
- [![GitHub Streak](https://streak-stats.demolab.com?user=Lucky&theme=tokyonight&border_radius=6.5)](https://git.io/streak-stats)
+ [![GitHub Streak](https://streak-stats.demolab.com?username=Lucky-Yadav&theme=tokyonight&border_radius=6.5)](https://git.io/streak-stats)
 
 
   <h2>:bulb: Languages & Frameworks </h2>
