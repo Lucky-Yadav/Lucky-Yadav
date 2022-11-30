@@ -58,4 +58,4 @@ class Skills extends SoftwareDeveloper {
 
  <h2>Contribution Graph</h2>
 
-  <a href="https://github.com/Lucky-Yadav"><img alt="DenverCoder1's Activity Graph" src="https://denvercoder1-activity-graph.herokuapp.com/graph/?username=Lucky-Yadav&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a><br><br>
+  [![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=Lucky-yadav&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
