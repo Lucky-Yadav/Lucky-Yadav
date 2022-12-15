@@ -59,4 +59,4 @@ class Skills extends SoftwareDeveloper {
  <h2>Contribution Graph</h2>
 
   [![Lucky's github activity graph](https://activity-graph.herokuapp.com/graph?username=Lucky-yadav&theme=high-contrast)](https://github.com/ashutosh00710/github-readme-activity-graph)
-  [![Lucky's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Lucky-Yadav)](https://github.com/ashutosh00710/github-readme-activity-graph)
+  [![Lucky's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Lucky-Yadav)](https://github.com/Lucky-Yadav/github-readme-activity-graph)
