@@ -11,14 +11,14 @@ import "./topbar.css";
 
 const Topbar = () => {
   const [activeNav, setActiveNav] = useState("#home");
-  const [stickynav, setstickynav] = useState("true");
+  const [stickynav, setstickynav] = useState("false");
 
   var timeout;
 
   document.onmousemove = function () {
     if (timeout <= 5000) {
-        setstickynav("false")
-      }
+      setstickynav("false");
+    }
     clearTimeout(timeout);
 
     timeout = setTimeout(() => {
@@ -38,10 +38,7 @@ const Topbar = () => {
 
   return (
     <>
-      <nav
-        className="navb"
-      >
-
+      <nav className="navb">
         <a
           href="#home"
           onClick={() => setActiveNav("#home")}
@@ -50,35 +47,35 @@ const Topbar = () => {
           <p className="p2">HOME</p>
         </a>
         <div className="right_nav">
-           <a
-          href="#about"
-          onClick={() => setActiveNav("#about")}
-          className={activeNav === "#about" ? "active" : ""}
-        >
-          <p className="p2">ABOUT</p>
-        </a>
-         <a
-          href="#experience"
-          onClick={() => setActiveNav("#experience")}
-          className={activeNav === "#experience" ? "active" : ""}
-        >
-          <p className="p2">SKILLS</p>
-        </a>
-        <a
-          href="#portfolio"
-          onClick={() => setActiveNav("#portfolio")}
-          className={activeNav === "#portfolio" ? "active" : ""}
-        >
-          <p className="p2">PROJECTS</p>
-        </a>
-         <a
-          href="#contact"
-          onClick={() => setActiveNav("#contact")}
-          className={activeNav === "#contact" ? "active" : ""}
-        >
-          <p className="p2">Contact</p>
-        </a>
-        </div>       
+          <a
+            href="#about"
+            onClick={() => setActiveNav("#about")}
+            className={activeNav === "#about" ? "active" : ""}
+          >
+            <p className="p2">ABOUT</p>
+          </a>
+          <a
+            href="#experience"
+            onClick={() => setActiveNav("#experience")}
+            className={activeNav === "#experience" ? "active" : ""}
+          >
+            <p className="p2">SKILLS</p>
+          </a>
+          <a
+            href="#portfolio"
+            onClick={() => setActiveNav("#portfolio")}
+            className={activeNav === "#portfolio" ? "active" : ""}
+          >
+            <p className="p2">PROJECTS</p>
+          </a>
+          <a
+            href="#contact"
+            onClick={() => setActiveNav("#contact")}
+            className={activeNav === "#contact" ? "active" : ""}
+          >
+            <p className="p2">Contact</p>
+          </a>
+        </div>
       </nav>
       <div className={stickynav === "false" ? " stickynav " : "hidden"}>
         <nav className="jss1">

@@ -45,7 +45,8 @@ body {
   line-height: 1.7;
   background-image: url(../src/assets/pexels-samphan-korwong-6949326.jpg), url(../src/assets/pexels-rafael-guajardo-604684.jpg);
   background-position: top left, top right;
-  background-repeat: no-repeat;
+  background-repeat: space, repeat;
+  /* background-repeat: ; */
   background-size: 45%, 63.3%;
 }
 
