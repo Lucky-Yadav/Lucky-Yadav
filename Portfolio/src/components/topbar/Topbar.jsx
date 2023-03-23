@@ -39,33 +39,30 @@ const Topbar = () => {
   return (
     <>
       <nav
-        onMouseEnter={() => setstickynav("true")}
-        onMouseLeave={() => setstickynav("false")}
         className="navb"
       >
+
         <a
           href="#home"
           onClick={() => setActiveNav("#home")}
           className={activeNav === "#home" ? "active" : ""}
         >
           <p className="p2">HOME</p>
-          <AiOutlineHome size={25} />
         </a>
-        <a
+        <div className="right_nav">
+           <a
           href="#about"
           onClick={() => setActiveNav("#about")}
           className={activeNav === "#about" ? "active" : ""}
         >
           <p className="p2">ABOUT</p>
-          <AiOutlineUser size={25} />
         </a>
-        <a
+         <a
           href="#experience"
           onClick={() => setActiveNav("#experience")}
           className={activeNav === "#experience" ? "active" : ""}
         >
           <p className="p2">SKILLS</p>
-          <BiBook size={25} />
         </a>
         <a
           href="#portfolio"
@@ -73,16 +70,15 @@ const Topbar = () => {
           className={activeNav === "#portfolio" ? "active" : ""}
         >
           <p className="p2">PROJECTS</p>
-          <VscProject size={25} />
         </a>
-        <a
+         <a
           href="#contact"
           onClick={() => setActiveNav("#contact")}
           className={activeNav === "#contact" ? "active" : ""}
         >
           <p className="p2">Contact</p>
-          <RiContactsBookLine size={25} />
         </a>
+        </div>       
       </nav>
       <div className={stickynav === "false" ? " stickynav " : "hidden"}>
         <nav className="jss1">

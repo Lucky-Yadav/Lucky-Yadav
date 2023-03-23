@@ -25,8 +25,10 @@ const Intro = () => {
       <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
-          <div onMouseEnter={() => startMusic()} 
-          onMouseLeave={() => pauseMusic()}>
+          <div
+            onMouseEnter={() => startMusic()}
+            onMouseLeave={() => pauseMusic()}
+          >
             <img src={ME} alt="me" className="about__me-image" />
           </div>
         </div>
@@ -40,7 +42,7 @@ const Intro = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>50+ Completed Assignments</small>
+              <small>90+ Completed Assignments</small>
             </article>
           </div>
           <p>
@@ -50,6 +52,9 @@ const Intro = () => {
             appreciated as well-performer.
             <br />I believe everything is an Art when you put your consciousness
             in it. <br />
+            “What separates design from art is that design is meant to be…
+            functional.”<br />
+             – Cameron Moll <br />
             <b>HTML, CSS, JavaScript, React, Redux </b> etc. building everything
             from landing pages to APIs under the guidence of
             <b> MASAI SCHOOL</b> .
