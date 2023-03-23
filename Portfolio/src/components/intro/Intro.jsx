@@ -53,8 +53,9 @@ const Intro = () => {
             <br />I believe everything is an Art when you put your consciousness
             in it. <br />
             “What separates design from art is that design is meant to be…
-            functional.”<br />
-             – Cameron Moll <br />
+            functional.”
+            <br />
+            – Cameron Moll <br />
             <b>HTML, CSS, JavaScript, React, Redux </b> etc. building everything
             from landing pages to APIs under the guidence of
             <b> MASAI SCHOOL</b> .
