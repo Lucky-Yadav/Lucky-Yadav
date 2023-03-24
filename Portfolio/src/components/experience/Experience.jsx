@@ -78,7 +78,7 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <SiSocketdotio className="experience__details-icon" />
-              <h4>socket.io</h4>
+              <h4>Socket.io</h4>
             </article>
           </div>
         </div>
