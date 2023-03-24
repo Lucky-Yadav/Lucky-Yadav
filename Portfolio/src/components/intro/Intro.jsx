@@ -1,6 +1,6 @@
 import React from "react";
 import ReactAudioPlayer from "react-audio-player";
-import { FaAward } from "react-icons/fa";
+import { FaAward, FaCode } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
 import ME from "../../assets/lucky.png";
 import "./intro.css";
@@ -37,12 +37,17 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>Around 9 months</small>
+              <small>Around 1 year</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>90+ Completed Assignments</small>
+            </article>
+            <article className="about__card">
+              <FaCode className="about__icon" />
+              <h5>Practical Learning</h5>
+              <small>1000+ hrs</small>
             </article>
           </div>
           <p>
