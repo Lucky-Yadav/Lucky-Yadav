@@ -3,6 +3,9 @@ import emailjs from "@emailjs/browser";
 import { MdOutlineEmail } from "react-icons/md";
 import Linkedinicon from "../../assets/linkedinicon.gif";
 import "./contact.css";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+import { BsWhatsapp } from "react-icons/bs";
 
 const Contact = () => {
   const formRef = useRef();
@@ -43,7 +46,7 @@ const Contact = () => {
                 <a href="mailto:luckyyadav8627@gmail.com">Let's Connect</a>
               </span>
               <span style={{ "--i": "1" }} className="contact__option">
-                <MdOutlineEmail className="contact__option-icon" />
+                <BsWhatsapp className="contact__option-icon" />
                 <h4>WhatsApp</h4>
                 <h5>+91-9485949413</h5>
                 <a href="https://api.whatspp.com/send?phone=+919485949413ss">
@@ -51,9 +54,9 @@ const Contact = () => {
                 </a>
               </span>
               <span style={{ "--i": "2" }} className="contact__option">
-                <img
-                  src={Linkedinicon}
-                  alt="Loading..."
+                <BsLinkedin
+                  // src={Linkedinicon}
+                  // alt="Loading..."
                   className="contact__option-icon linkedin_icon"
                 />
                 <h4>Linkedin</h4>
@@ -63,7 +66,7 @@ const Contact = () => {
                 </a>
               </span>
               <span style={{ "--i": "3" }} className="contact__option">
-                <MdOutlineEmail className="contact__option-icon" />
+                <FaGithub className="contact__option-icon" />
                 <h4>Github</h4>
                 <h5>Lucky-Yadav</h5>
                 <a href="https://github.com/Lucky-Yadav">Let's Connect</a>
