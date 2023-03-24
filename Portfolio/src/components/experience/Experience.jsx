@@ -5,12 +5,7 @@ import { FaNodeJs, FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { IoLogoCss3, IoLogoJavascript } from "react-icons/io";
 import { DiMongodb } from "react-icons/di";
-import {
-  SiExpress,
-  SiFirebase,
-  SiSocketdotio,
-  SiTypescript,
-} from "react-icons/si";
+import { SiExpress, SiFirebase, SiSocketdotio } from "react-icons/si";
 import { TbApi, TbBrandTypescript } from "react-icons/tb";
 import "./experience.css";
 
@@ -43,10 +38,6 @@ const Experience = () => {
               <SiRedux className="experience__details-icon" />
               <h4>Redux</h4>
             </article>
-            <article className="experience__details">
-              <TbBrandTypescript className="experience__details-icon" />
-              <h4>Typescript</h4>
-            </article>
           </div>
         </div>
         <div className="experience__backend">
@@ -67,6 +58,10 @@ const Experience = () => {
             <article className="experience__details">
               <DiMongodb className="experience__details-icon" />
               <h4>MongoDB</h4>
+            </article>
+            <article className="experience__details">
+              <TbBrandTypescript className="experience__details-icon" />
+              <h4>Typescript</h4>
             </article>
           </div>
         </div>
