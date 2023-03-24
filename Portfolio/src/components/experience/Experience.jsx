@@ -76,10 +76,6 @@ const Experience = () => {
               <TbApi className="experience__details-icon" />
               <h4>Api's</h4>
             </article>
-            <article className="experience__details">
-              <DiMongodb className="experience__details-icon" />
-              <h4>Rest Api's</h4>
-            </article>
           </div>
         </div>
       </div>
