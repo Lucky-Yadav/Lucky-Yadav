@@ -85,11 +85,18 @@ textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   ::-moz-placeholder { /* Firefox 19+ */
     color: pink;
   }
+ 
+@media screen and (max-width: 1400px){
+    .container.contact__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}  
 
 @media screen and (max-width: 1024px){
     .container.contact__container {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 32rem;
     }
 }
   
