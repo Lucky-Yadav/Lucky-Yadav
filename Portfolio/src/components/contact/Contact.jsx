@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { MdOutlineEmail } from "react-icons/md";
-import Linkedinicon from "../../assets/linkedinicon.gif";
+// import Linkedinicon from "../../assets/linkedinicon.gif";
 import "./contact.css";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
