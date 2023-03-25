@@ -28,10 +28,17 @@ class Skills extends SoftwareDeveloper {
 - 👀 I’m interested in coding and exploring new technologies in Web 3 ...
 - 🌱 I’m currently learning Web Development and UI/UX ...
 - :mailbox:Let's Connect : [![Linkedin Badge](https://img.shields.io/badge/-Lucky_Yadav-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/lucky-yadav/) [![Gmail Badge](https://img.shields.io/badge/-luckyyadav8627@gmail.com-red?style=flat&logo=Gmail&logoColor=white)](mailto:luckyyadav8627@gmail.com)
-  <br><br><br>
+<br><br><br>
 
    <h2> 🔥 Github Stats:</h2>
-   
+   <!--📊💬STATTITLE / 🌐WEBSITE: https://textanim.com/ -->
+<p align="center">
+<img src="https://i.imgur.com/YCw47Dm.gif">
+
+<!--🖼️OCTOCAT-->
+<p align="center">
+<img src="https://media.giphy.com/media/IP7sarl7C5lSFCw9rG/giphy.gif"  width="100px" height="100px"></p>
+
    <div>
    <img width="50%"  src="https://github-readme-stats.vercel.app/api?username=Lucky-Yadav&show_icons=true&theme=radical" />
    <img width="49%"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lucky-Yadav&layout=compact&theme=radical" />
@@ -152,29 +159,16 @@ class Skills extends SoftwareDeveloper {
 <!--📏LINE-->
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
-<!--📊💬STATTITLE / 🌐WEBSITE: https://textanim.com/ -->
-<p align="center">
-<img src="https://i.imgur.com/YCw47Dm.gif">
-
-<!--🖼️OCTOCAT-->
-<p align="center">
-<img src="https://media.giphy.com/media/IP7sarl7C5lSFCw9rG/giphy.gif"  width="100px" height="100px"></p>
-
-
-
 <!--🏆TROPHYGIF-->
 <p align="center">
 <img src="https://media.tenor.com/0ENB5HuTH0gAAAAi/trophy-beker.gif"  width="100px" height="100px"></p>
-  
+
 
  </div>
 
 <!--👨‍💻STACKOVERFLOW / 🌐WEBSITE: https://github.com/omidnikrah/github-readme-stackoverflow -->
 <p align="center">
 <a href="https://camo.githubusercontent.com/30c44016d9071a2853f6717d5a75e9ee1b97800d7c5ce8be5f5c87c71b0fcdf9/68747470733a2f2f6769746875622d726561646d652d737461636b6f766572666c6f772e76657263656c2e6170702f3f7573657249443d3134363032393135267468656d653d6461726b">
-
-
-
 
 <!--🐍💬SNAKETITLE / 🌐WEBSITE: https://textanim.com/ -->
 <p align="center">
@@ -238,10 +232,7 @@ class Skills extends SoftwareDeveloper {
 <p align="center">
 <img src="https://i.imgur.com/jdd2GPv.gif" height="37" width="250">
 
-
-
 <!--📏LINE-->
-
 
 <table>
   <tr>
@@ -318,4 +309,3 @@ https://github.com/wei/pull
 ██╔══██╗██╔══╝ ██╔══╝ ██║██║╚██╗██║██╔══╝ ██║ ██║╚════╝██║ ██║██║ ██║ ██╔══██║██║ ██║██╔══██╗
 ██║ ██║███████╗██║ ██║██║ ╚████║███████╗██████╔╝ ╚██████╔╝██║ ██║ ██║ ██║╚██████╔╝██████╔╝
 ╚═╝ ╚═╝╚══════╝╚═╝ ╚═╝╚═╝ ╚═══╝╚══════╝╚═════╝ ╚═════╝ ╚═╝ ╚═╝ ╚═╝ ╚═╝ ╚═════╝ ╚═════╝
-
