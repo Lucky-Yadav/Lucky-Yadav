@@ -45,17 +45,17 @@ class Skills extends SoftwareDeveloper {
    </div>
    </br></br></br>
   [![GitHub Streak](https://streak-stats.demolab.com?user=Lucky-Yadav&theme=tokyonight&border_radius=6.5)](https://git.io/streak-stats)
-
+<!--📏LINE-->
     <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
     <p align="center">
 
-    <!--🐱CAT-->
-    <p align="center">
-    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100">
+  <!--🐱CAT-->
+   <p align="center">
+   <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100">
 
-    <!--🤔INTERESTTITLE-->
-    <p align="center">
-    <img src="https://i.imgur.com/ozEwbHs.gif">
+   <!--🤔INTERESTTITLE-->
+   <p align="center">
+   <img src="https://i.imgur.com/ozEwbHs.gif">
 
    <h2>:bulb: Languages & Frameworks </h2>
    <code><img title="HTML 5" alt="html5" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /></code>
@@ -163,7 +163,6 @@ class Skills extends SoftwareDeveloper {
 <p align="center">
 <img src="https://media.tenor.com/0ENB5HuTH0gAAAAi/trophy-beker.gif"  width="100px" height="100px"></p>
 
-
  </div>
 
 <!--👨‍💻STACKOVERFLOW / 🌐WEBSITE: https://github.com/omidnikrah/github-readme-stackoverflow -->
@@ -231,8 +230,6 @@ class Skills extends SoftwareDeveloper {
 <!--💬FUNTITLE / 🌐WEBSITE: https://textanim.com/ -->
 <p align="center">
 <img src="https://i.imgur.com/jdd2GPv.gif" height="37" width="250">
-
-<!--📏LINE-->
 
 <table>
   <tr>
