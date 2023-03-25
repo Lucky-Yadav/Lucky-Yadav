@@ -44,7 +44,7 @@ class Skills extends SoftwareDeveloper {
    <img width="49%"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lucky-Yadav&layout=compact&theme=radical" />
    </div>
    </br></br></br>
-   
+
   [![GitHub Streak](https://streak-stats.demolab.com?user=Lucky-Yadav&theme=tokyonight&border_radius=6.5)](https://git.io/streak-stats)
 
    <h2>:bulb: Languages & Frameworks </h2>
@@ -157,13 +157,4 @@ class Skills extends SoftwareDeveloper {
 <p align="left">
 <img src="https://media.giphy.com/media/2fC8cduAc35UIAxHDE/giphy.gif" width="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://c.tenor.com/3dgbcMt6Kx4AAAAi/spider-insect.gif" width="40">
  
-<!--🦶FOOTER--> 
-<img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%">
 
-<!--⚽️ACTIVITY / 🌐WEBSITE: https://github.com/Readme-Workflows/recent-activity -->
-<!--RECENT_ACTIVITY:start-->
-<!--RECENT_ACTIVITY:end-->
-<p align="right">
-<!--RECENT_ACTIVITY:last_update-->
-<i>Last refresh</i> : <b>Friday, March 24th, 2023, 11:26:19 PM</b>
-<!--RECENT_ACTIVITY:last_update_end-->
