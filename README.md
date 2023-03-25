@@ -55,6 +55,10 @@ class Skills extends SoftwareDeveloper {
    <!--🤔INTERESTTITLE-->
    <p align="center">
    <img src="https://i.imgur.com/ozEwbHs.gif">
+   
+   <!--📏LINE-->
+    <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+    <p align="center">
    <code><img title="HTML 5" alt="html5" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /></code>
    <code><img title="JavaScript" alt="javascript" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /></code>
    <code><img title="CSS 3" alt="css 3" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /></code>
