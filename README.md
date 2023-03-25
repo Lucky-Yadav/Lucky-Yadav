@@ -272,15 +272,6 @@ class Skills extends SoftwareDeveloper {
 <img src="https://i.imgur.com/jdd2GPv.gif" height="37" width="250">
 
 
-      
-
-      
-#
-<!--✏️WORDBOARD / 🌐WEBSITE: https://github.com/JessicaLim8/JessicaLim8 --> 
-<h2 align="center">
-Join the Word Cloud Board :cloud: :pencil2:
-
-### :thought_balloon: <a href="https://github.com/trinib/word-cloud/issues/new?template=addword.md&title=wordcloud%7Cadd%7C%3CINSERT-WORD%3E"><b>Add your name</b></a> to see the word cloud update in real time :rocket:
 
 <!--📏LINE-->
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
