@@ -136,30 +136,9 @@ class Skills extends SoftwareDeveloper {
 
 <!--ENDS_HERE_QUOTE_README-->
 
-<!--📏LINE-->
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
- </div>
 
-<!--👨‍💻STACKOVERFLOW / 🌐WEBSITE: https://github.com/omidnikrah/github-readme-stackoverflow -->
-<p align="center">
-<a href="https://camo.githubusercontent.com/30c44016d9071a2853f6717d5a75e9ee1b97800d7c5ce8be5f5c87c71b0fcdf9/68747470733a2f2f6769746875622d726561646d652d737461636b6f766572666c6f772e76657263656c2e6170702f3f7573657249443d3134363032393135267468656d653d6461726b">
 
-<!--🐍💬SNAKETITLE / 🌐WEBSITE: https://textanim.com/ -->
-<p align="center">
-<img src="https://i.imgur.com/x1KbuCq.gif" width="500">
-
-<!--🐍📈SNAKEGRAPH / 🌐WEBSITE: https://github.com/Platane/snk -->
-<img src="https://raw.githubusercontent.com/trinib/trinib/snake/github-contribution-grid-snake-dark.svg" width="100%">
-
-<!--📉METRICS / 🌐WEBSITE: https://github.com/lowlighter/metrics -->
-<h4 align="right">
-<details><summary><b>𝓟&nbsp;𝓡&nbsp;𝓞&nbsp;𝓕&nbsp;𝓘&nbsp;𝓛&nbsp;𝓔&nbsp;&nbsp; 𝓜&nbsp;𝓔&nbsp;𝓣&nbsp;𝓡&nbsp;𝓘&nbsp;𝓒&nbsp;𝓢<img src="https://media.giphy.com/media/mBYkXvLxkHZFmqBHIC/giphy.gif" width=50px height=40px></b></summary>
-<p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/trinib/trinib/main/github-metrics.svg">
-</p>
-</details>
 
 <!--📏LINE-->
 <p align="center">
