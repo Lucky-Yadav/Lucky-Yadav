@@ -49,9 +49,7 @@ const Contact = () => {
                 <BsWhatsapp className="contact__option-icon" />
                 <h4>WhatsApp</h4>
                 <h5>+91-9485949413</h5>
-                <a href="https://api.whatspp.com/send?phone=+919485949413">
-                  Let's Connect
-                </a>
+                <a href="https://wa.me/9485949413">Let's Connect</a>
               </span>
               <span style={{ "--i": "2" }} className="contact__option">
                 <BsLinkedin
