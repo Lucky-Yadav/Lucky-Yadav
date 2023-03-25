@@ -1,23 +1,22 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&color=FE428E&center=true&vCenter=true&lines=Namaste%F0%9F%99%8F+;Myself+%3CLucky+Yadav%3E;a+A+Full+Stack+Web+Develo...)](https://git.io/typing-svg)
 
-
-
 <img src="https://camo.githubusercontent.com/61491d59e71fec5c794945fed916a4a682b6c0404fc31f30b08a0d919c558404/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e532f6b6531375a77644742546f6464493870446d34386b506f73776c7a6a53564d4d2d53784f703743563539425a772d7a505067646e346a557756634a45315a7657515578776b6d794578676c4e714770304976544a5a616d574c49327a76595748384b332d735f3479737a63703272795449304871544f6161556f68724938504936465879386339505774426c7141566c555335697a7064634958445a71445976707252715a32395077306f2f636f64696e672d667265616b2e676966" width="350" align="right" alt="" />
 
 ```js
-import SoftwareDeveloper from 'India';
+import SoftwareDeveloper from "India";
 class Bio extends SoftwareDeveloper {
-  name     = 'Lucky Yadav';
-  title    = 'Software Engineer' || 'Full Stack Web Developer';
-  location = 'Narnaul,  Haryana, India';
+  name = "Lucky Yadav";
+  title = "Software Engineer" || "Full Stack Web Developer";
+  location = "Narnaul,  Haryana, India";
   availability = "Available to hire!!";
 }
 class Skills extends SoftwareDeveloper {
-  frontend  = ['JavaScript', 'HTML', 'CSS', 'React', 'Redux'];
-  backend = ['NodeJs', 'ExpressJs', 'MongoDB'];
-  ui = ['Material-Ui', 'Styled-Components'];
+  frontend = ["JavaScript", "HTML", "CSS", "React", "Redux"];
+  backend = ["NodeJs", "ExpressJs", "MongoDB"];
+  ui = ["Material-Ui", "Styled-Components"];
 }
 ```
+
 <br/>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Lucky-Yadav&label=Profile%20views&color=0e75b6&style=flat" alt="views" />
 <a href="https://github.com/Lucky-Yadav?tab=followers"><img src="https://img.shields.io/github/followers/Lucky-yadav?label=Followers&style=social" alt="GitHub Badge"></a>
@@ -25,51 +24,38 @@ class Skills extends SoftwareDeveloper {
 </br>
 
 <!-- 👋 Hello World!, I’m @Lucky-yadav-> A Full Stack Web Developer -->
+
 - 👀 I’m interested in coding and exploring new technologies in Web 3 ...
-- 🌱 I’m currently learning Web Development and UI/UX ... 
+- 🌱 I’m currently learning Web Development and UI/UX ...
 - :mailbox:Let's Connect : [![Linkedin Badge](https://img.shields.io/badge/-Lucky_Yadav-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/lucky-yadav/) [![Gmail Badge](https://img.shields.io/badge/-luckyyadav8627@gmail.com-red?style=flat&logo=Gmail&logoColor=white)](mailto:luckyyadav8627@gmail.com)
   <br><br><br>
-  
-  
-  <h2> 🔥 Github Stats:</h2>
-  
-  <div>
-  <img width="50%"  src="https://github-readme-stats.vercel.app/api?username=Lucky-Yadav&show_icons=true&theme=radical" />
-  <img width="49%"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lucky-Yadav&layout=compact&theme=radical" />
-  </div>
-  </br></br></br>
- [![GitHub Streak](https://streak-stats.demolab.com?user=Lucky-Yadav&theme=tokyonight&border_radius=6.5)](https://git.io/streak-stats)
 
+   <h2> 🔥 Github Stats:</h2>
+   
+   <div>
+   <img width="50%"  src="https://github-readme-stats.vercel.app/api?username=Lucky-Yadav&show_icons=true&theme=radical" />
+   <img width="49%"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lucky-Yadav&layout=compact&theme=radical" />
+   </div>
+   </br></br></br>
+  [![GitHub Streak](https://streak-stats.demolab.com?user=Lucky-Yadav&theme=tokyonight&border_radius=6.5)](https://git.io/streak-stats)
 
-  <h2>:bulb: Languages & Frameworks </h2>
-  <code><img title="HTML 5" alt="html5" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /></code>
-  <code><img title="JavaScript" alt="javascript" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /></code>
-  <code><img title="CSS 3" alt="css 3" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /></code>
-  <code><img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/></code>
-  <code><img title="ReactJS" alt="react js" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /></code>
-  <code><img title="Redux" alt="node js" width="40px" src="https://blog.telexarsoftware.com/wp-content/uploads/2019/11/logo-redux.png" /></code>
-  <code><img title="Material UI" alt="node js" width="40px" src="https://mui.com/static/logo.png" /></code>
-  <code><img title="NodeJS" alt="node js" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /></code>
-  <code><img title="ExpressJS" alt="node js" width="100px" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" /></code>
-  <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" title="MongoDB"  alt="MySQL" width="40"     height="40"/></code>
-  
-  </br></br><br>
-
+   <h2>:bulb: Languages & Frameworks </h2>
+   <code><img title="HTML 5" alt="html5" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /></code>
+   <code><img title="JavaScript" alt="javascript" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /></code>
+   <code><img title="CSS 3" alt="css 3" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /></code>
+   <code><img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/></code>
+   <code><img title="ReactJS" alt="react js" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /></code>
+   <code><img title="Redux" alt="node js" width="40px" src="https://blog.telexarsoftware.com/wp-content/uploads/2019/11/logo-redux.png" /></code>
+   <code><img title="Material UI" alt="node js" width="40px" src="https://mui.com/static/logo.png" /></code>
+   <code><img title="NodeJS" alt="node js" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /></code>
+   <code><img title="ExpressJS" alt="node js" width="100px" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" /></code>
+   <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" title="MongoDB"  alt="MySQL" width="40"     height="40"/></code>
+   
+   </br></br><br>
 
  <h2>Contribution Graph</h2>
 
-  [![Lucky's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Lucky-Yadav&theme=merko)](https://github.com/Lucky-Yadav/github-readme-activity-graph)
-
-
-
-
-
-
-
-
-
-
-
+[![Lucky's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Lucky-Yadav&theme=merko)](https://github.com/Lucky-Yadav/github-readme-activity-graph)
 
 <!--💬GREETINGSTITLE / 🌐WEBSITE: https://github.com/denvercoder1/readme-typing-svg -->
 <p align="center">
@@ -153,8 +139,11 @@ class Skills extends SoftwareDeveloper {
 <p align="center">
 
 <b>FUN FACT EVERYDAY🤔 :</b>
+
 <!--STARTS_HERE_QUOTE_README-->
+
 <i>❝No human has won a tournament standard chess game against a high spec computer since 2005.❞</i>
+
 <!--ENDS_HERE_QUOTE_README-->
 
 <!--📰RSS / TAKE IMAGE FROM https://github.com/trinib/trinib/blob/main/images/marquee.svg TO YOUR REPO AND EDIT IT-->
@@ -174,7 +163,6 @@ class Skills extends SoftwareDeveloper {
 
 <!--🌯GITHUBWRAPPED / 🌐https://github.com/neat-run/wrapped -->
 <p align="center">
-<a href="https://trinib.wrapped.run"><b>My GitHub Wrapped</b></a>
 
 <!--📊STATSGRAPH / 🌐WEBSITE: https://github.com/anuraghazra/github-readme-stats -->
 <p align="center">
@@ -283,166 +271,9 @@ class Skills extends SoftwareDeveloper {
 <p align="center">
 <img src="https://i.imgur.com/jdd2GPv.gif" height="37" width="250">
 
-<!--♟️CHESS / 🌐WEBSITE: https://github.com/marcizhu/readme-chess --> 
- <h4 align="center">
-<table>
-  <tr>
-  </tr>
-  <tr>
-    <td><h5 align="center"><details>
-  <summary><h2><img src="https://media.giphy.com/media/9qCnMFHeiUVdVaTihl/giphy.gif" width="35px" height="35px">&nbsp;Chess Tournament&nbsp;<img src="https://media.giphy.com/media/9qCnMFHeiUVdVaTihl/giphy.gif" width="40px" height="40px"></h2></summary><p>
 
-<h4 align="left">
-
-ANYONE can take a turn on the board  
-<i>Make your move !!. It's <!-- BEGIN TURN -->black(solid)<!-- END TURN --> to play(instructions beneath)</i>
-
-<!-- BEGIN CHESS BOARD -->
-|   | A | B | C | D | E | F | G | H |   |
-|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **8** | <img src="img/blank.png" width=50px> | <img src="img/black/knight.png" width=50px> | <img src="img/black/bishop.png" width=50px> | <img src="img/black/queen.png" width=50px> | <img src="img/black/king.png" width=50px> | <img src="img/black/bishop.png" width=50px> | <img src="img/black/knight.png" width=50px> | <img src="img/black/rook.png" width=50px> | **8** |
-| **7** | <img src="img/blank.png" width=50px> | <img src="img/black/rook.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/black/pawn.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **7** |
-| **6** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/black/pawn.png" width=50px> | <img src="img/blank.png" width=50px> | **6** |
-| **5** | <img src="img/black/pawn.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/white/pawn.png" width=50px> | <img src="img/white/knight.png" width=50px> | <img src="img/black/pawn.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **5** |
-| **4** | <img src="img/white/pawn.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/white/knight.png" width=50px> | <img src="img/white/pawn.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **4** |
-| **3** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **3** |
-| **2** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/white/pawn.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/white/pawn.png" width=50px> | <img src="img/white/pawn.png" width=50px> | <img src="img/white/pawn.png" width=50px> | **2** |
-| **1** | <img src="img/black/queen.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/white/bishop.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/white/king.png" width=50px> | <img src="img/white/bishop.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/white/rook.png" width=50px> | **1** |
-|   | **A** | **B** | **C** | **D** | **E** | **F** | **G** | **H** |   |
-<!-- END CHESS BOARD -->
-
-To move a piece to a postion
- 
-**_Choose one from the following table_** :
-<!-- BEGIN MOVES LIST -->
-|  FROM  | TO (Just click a link!) |
-| :----: | :---------------------- |
-| **A1** | [A2](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A1+to+A2), [A3](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A1+to+A3), [A4](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A1+to+A4), [B1](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A1+to+B1), [B2](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A1+to+B2), [C1](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A1+to+C1), [C3](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A1+to+C3), [D4](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A1+to+D4) |
-| **B7** | [A7](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B7+to+A7), [B1](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B7+to+B1), [B2](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B7+to+B2), [B3](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B7+to+B3), [B4](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B7+to+B4), [B5](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B7+to+B5), [B6](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B7+to+B6), [C7](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B7+to+C7) |
-| **B8** | [A6](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B8+to+A6), [C6](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B8+to+C6) |
-| **D7** | [D6](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D7+to+D6) |
-| **D8** | [B6](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D8+to+B6), [C7](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D8+to+C7), [E7](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D8+to+E7), [F6](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D8+to+F6), [G5](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D8+to+G5), [H4](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D8+to+H4) |
-| **E8** | [E7](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E8+to+E7) |
-| **F5** | [E4](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F5+to+E4), [F4](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F5+to+F4) |
-| **F8** | [A3](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F8+to+A3), [B4](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F8+to+B4), [C5](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F8+to+C5), [D6](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F8+to+D6), [E7](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F8+to+E7), [G7](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F8+to+G7), [H6](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F8+to+H6) |
-| **G6** | [G5](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G6+to+G5) |
-| **G8** | [E7](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G8+to+E7), [F6](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G8+to+F6), [H6](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G8+to+H6) |
-| **H8** | [H2](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H8+to+H2), [H3](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H8+to+H3), [H4](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H8+to+H4), [H5](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H8+to+H5), [H6](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H8+to+H6), [H7](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H8+to+H7) |
-<!-- END MOVES LIST -->
-
-Having fun? Ask a friend to play next move to get the next turn !
-
-<details>
-  <summary>How it works</summary>
-When you click on a link it will submit a new issue with the desired move, create the issue and a GitHub action is triggered, which in turn runs a small python script that performs the specified movement, updates this README file and commits the changes.
-</details>
-
-
-<details>
-  <summary>Last 5 moves in this game</summary>
-<!-- BEGIN LAST MOVES -->
-
-| Move | Author |
-| :--: | :----- |
-| `D2` to `C1` | [ @nicoloadamo](https://github.com/nicoloadamo) |
-| `A2` to `A1` | [ @arrafi-mahin](https://github.com/arrafi-mahin) |
-| `B5` to `D4` | [ @vanam-chandra-shekar](https://github.com/vanam-chandra-shekar) |
-| `A7` to `B7` | [ @NakerTheFirst](https://github.com/NakerTheFirst) |
-| `C3` to `B5` | [ @AchillesKastanas](https://github.com/AchillesKastanas) |
-
-<!-- END LAST MOVES -->
-</details>
-
-<details>
-  <summary>Top 10 most moves across all games</summary>
-<!-- BEGIN TOP MOVES -->
-
-| Total moves |  User  |
-| :---------: | :----- |
-| 22 | [@trinib](https://github.com/trinib) |
-| 14 | [@JayantGoel001](https://github.com/JayantGoel001) |
-| 3 | [@Sabyasachi-Seal](https://github.com/Sabyasachi-Seal) |
-| 1 | [@teotoniojr](https://github.com/teotoniojr) |
-| 1 | [@timguy](https://github.com/timguy) |
-| 1 | [@FranGarcia94](https://github.com/FranGarcia94) |
-| 1 | [@UserUNP](https://github.com/UserUNP) |
-| 1 | [@SquaredStudios-MC](https://github.com/SquaredStudios-MC) |
-| 1 | [@zadilkhwaja](https://github.com/zadilkhwaja) |
-| 1 | [@IDKFORCE](https://github.com/IDKFORCE) |
-
-<!-- END TOP MOVES -->
-
-</details>
-</details><h5 align="center">
-  </tr>
- </table>
       
-<!--CONNECTDOT🔴🟡 / 🌐WEBSITE: https://github.com/bloedboemmel/bloedboemmel --> 
- <h4 align="center">
-<table>
-  <tr>
-  </tr>
-  <tr>
-    <td><h5 align="center"><details>
-  <summary><h2>&nbsp;&nbsp;<img src="https://media.giphy.com/media/L3LNfB3IXIUmySN67Z/giphy.gif" width="40px" height="40px">&nbsp;Connect 4 Dots&nbsp;<img src="https://media.giphy.com/media/Y0slbp1Hr4C8lUA5UG/giphy.gif" width="40px" height="40px">&nbsp;&nbsp;</h2></summary><p>
 
-<h4 align="left">
-
-Here you can play Connect4. Just click a number under the grid to move. It's <!-- BEGIN TURN2 -->red<!-- END TURN2 --> turn.
-
-<!-- BEGIN CONNECT4 BOARD -->
-|   | 1 | 2 | 3 | 4 | 5 | 6 | 7 |   |
-|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|---|<img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | |---|
-|---|<img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | |---|
-|---|<img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/yellow.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | |---|
-|---|<img src="img/yellow.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/yellow.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | |---|
-|---|<img src="img/red.png" width=50px> | <img src="img/red.png" width=50px> | <img src="img/red.png" width=50px> | <img src="img/yellow.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | |---|
-|---|<img src="img/red.png" width=50px> | <img src="img/red.png" width=50px> | <img src="img/yellow.png" width=50px> | <img src="img/yellow.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | |---|
-|   | [1](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Connect4%3A+Put+1) | [2](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Connect4%3A+Put+2) | [3](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Connect4%3A+Put+3) | [4](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Connect4%3A+Put+4) | [5](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Connect4%3A+Put+5) | [6](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Connect4%3A+Put+6) | [7](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Connect4%3A+Put+7) |   |
-<!-- END CONNECT4 BOARD -->
-<!-- BEGIN MOVES LIST2 -->
-**GAME IS OVER!**  [Click here](https://github.com/trinib/trinib/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Connect4%3A+start+new+game) | to start a new game :D
-<!-- END MOVES LIST2 -->
-
-<details>
-  <summary>Last 5 moves in this game</summary>
-<!-- BEGIN LAST MOVES2 -->
-
-| Move | Author |
-| :--: | :----- |
-| `4` |  [ @nicoloadamo](https://github.com/nicoloadamo) | |
-| `2` |  [ @lulunac27a](https://github.com/lulunac27a) | |
-| `4` |  [ @TriMPham98](https://github.com/TriMPham98) | |
-| `3` |  [ @FoketzoRAI](https://github.com/FoketzoRAI) | |
-| `1` |  [ @End3r6](https://github.com/End3r6) | |
-
-<!-- END LAST MOVES2 -->
-</details>
-
-<details>
-  <summary>Top 10 most moves across all games</summary>
-<!-- BEGIN TOP MOVES2 -->
-
-| Total moves |  User  |
-| :---------: | :----- |
-| 11 |  [@trinib](https://github.com/trinib) | |
-| 5 |  [@oxoovo](https://github.com/oxoovo) | |
-| 3 |  [@jhoitenga](https://github.com/jhoitenga) | |
-| 2 |  [@JayantGoel001](https://github.com/JayantGoel001) | |
-| 1 |  [@mauro-balades](https://github.com/mauro-balades) | |
-| 1 |  [@SantosPauloRF](https://github.com/SantosPauloRF) | |
-| 1 |  [@BolaGhaly](https://github.com/BolaGhaly) | |
-| 1 |  [@PriestlyAdejo](https://github.com/PriestlyAdejo) | |
-| 1 |  [@bot-beep-boop](https://github.com/bot-beep-boop) | |
-| 1 |  [@RedCommand-dev](https://github.com/RedCommand-dev) | |
-
-<!-- END TOP MOVES2 -->
-</details>
-</details>
-</details><h5 align="center">
-  </tr>
- </table>
       
 #
 <!--✏️WORDBOARD / 🌐WEBSITE: https://github.com/JessicaLim8/JessicaLim8 --> 
@@ -450,13 +281,6 @@ Here you can play Connect4. Just click a number under the grid to move. It's <!-
 Join the Word Cloud Board :cloud: :pencil2:
 
 ### :thought_balloon: <a href="https://github.com/trinib/word-cloud/issues/new?template=addword.md&title=wordcloud%7Cadd%7C%3CINSERT-WORD%3E"><b>Add your name</b></a> to see the word cloud update in real time :rocket:
-
-:star2: Don't like the arrangement? <a href="https://github.com/trinib/word-cloud/issues/new?template=shufflecloud.md&title=wordcloud%7Cshuffle"><b>Regenerate it</b></a> :game_die:
-
-<h3 align="center">
-📛Github Usernames📛 
-</br> 
-<img src="https://raw.githubusercontent.com/trinib/word-cloud/main/wordcloud/wordcloud.png" alt="WordCloud" width="100%">
 
 <!--📏LINE-->
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
@@ -514,7 +338,7 @@ Join the Word Cloud Board :cloud: :pencil2:
 ╚═════ &nbsp;𝐈𝐓'𝐒 [𝐃𝐀𝐑𝐊⚫](https://github.com/settings/appearance#gh-dark-mode-only)[𝐁𝐑𝐈𝐆𝐇𝐓⚪](https://github.com/settings/appearance#gh-light-mode-only) 𝐈𝐍 𝐇𝐄𝐑𝐄...
 <h4>
 
-<!--🪳ROACH&🕷️SPIDER--> 
+<!--🪳ROACH&🕷️SPIDER-->
 <p align="left">
 <img src="https://media.giphy.com/media/2fC8cduAc35UIAxHDE/giphy.gif" width="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://c.tenor.com/3dgbcMt6Kx4AAAAi/spider-insect.gif" width="40">
  
@@ -529,60 +353,40 @@ Join the Word Cloud Board :cloud: :pencil2:
 <i>Last refresh</i> : <b>Friday, March 24th, 2023, 11:26:19 PM</b>
 <!--RECENT_ACTIVITY:last_update_end-->
   
-<!-- 
+<!--
 
-𝐈𝐅 𝐘𝐎𝐔 𝐑𝐄𝐀𝐂𝐇𝐄𝐃 𝐇𝐄𝐑𝐄 (C O N G R A T S 🎉🎈🎊) 
+𝐈𝐅 𝐘𝐎𝐔 𝐑𝐄𝐀𝐂𝐇𝐄𝐃 𝐇𝐄𝐑𝐄 (C O N G R A T S 🎉🎈🎊)
 
 𝐂𝐇𝐄𝐂𝐊 𝐎𝐔𝐓 𝐓𝐇𝐄𝐒𝐄:
 
-
-██████╗ ███████╗ █████╗ ██╗   ██╗████████╗██╗███████╗██╗   ██╗     ██████╗ ██╗████████╗██╗  ██╗██╗   ██╗██████╗ 
-██╔══██╗██╔════╝██╔══██╗██║   ██║╚══██╔══╝██║██╔════╝╚██╗ ██╔╝    ██╔════╝ ██║╚══██╔══╝██║  ██║██║   ██║██╔══██╗
-██████╔╝█████╗  ███████║██║   ██║   ██║   ██║█████╗   ╚████╔╝     ██║  ███╗██║   ██║   ███████║██║   ██║██████╔╝
-██╔══██╗██╔══╝  ██╔══██║██║   ██║   ██║   ██║██╔══╝    ╚██╔╝      ██║   ██║██║   ██║   ██╔══██║██║   ██║██╔══██╗
-██████╔╝███████╗██║  ██║╚██████╔╝   ██║   ██║██║        ██║       ╚██████╔╝██║   ██║   ██║  ██║╚██████╔╝██████╔╝
-╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚═╝╚═╝        ╚═╝        ╚═════╝ ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═════╝                                         
+██████╗ ███████╗ █████╗ ██╗ ██╗████████╗██╗███████╗██╗ ██╗ ██████╗ ██╗████████╗██╗ ██╗██╗ ██╗██████╗
+██╔══██╗██╔════╝██╔══██╗██║ ██║╚══██╔══╝██║██╔════╝╚██╗ ██╔╝ ██╔════╝ ██║╚══██╔══╝██║ ██║██║ ██║██╔══██╗
+██████╔╝█████╗ ███████║██║ ██║ ██║ ██║█████╗ ╚████╔╝ ██║ ███╗██║ ██║ ███████║██║ ██║██████╔╝
+██╔══██╗██╔══╝ ██╔══██║██║ ██║ ██║ ██║██╔══╝ ╚██╔╝ ██║ ██║██║ ██║ ██╔══██║██║ ██║██╔══██╗
+██████╔╝███████╗██║ ██║╚██████╔╝ ██║ ██║██║ ██║ ╚██████╔╝██║ ██║ ██║ ██║╚██████╔╝██████╔╝
+╚═════╝ ╚══════╝╚═╝ ╚═╝ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═╝ ╚═════╝ ╚═╝ ╚═╝ ╚═╝ ╚═╝ ╚═════╝ ╚═════╝  
 https://github.com/rzashakeri/beautify-github-profile
 
-
- ██████╗ ██╗████████╗██╗  ██╗██╗   ██╗██████╗     ███████╗███████╗ █████╗ ██████╗  ██████╗██╗  ██╗
-██╔════╝ ██║╚══██╔══╝██║  ██║██║   ██║██╔══██╗    ██╔════╝██╔════╝██╔══██╗██╔══██╗██╔════╝██║  ██║
-██║  ███╗██║   ██║   ███████║██║   ██║██████╔╝    ███████╗█████╗  ███████║██████╔╝██║     ███████║
-██║   ██║██║   ██║   ██╔══██║██║   ██║██╔══██╗    ╚════██║██╔══╝  ██╔══██║██╔══██╗██║     ██╔══██║
-╚██████╔╝██║   ██║   ██║  ██║╚██████╔╝██████╔╝    ███████║███████╗██║  ██║██║  ██║╚██████╗██║  ██║
- ╚═════╝ ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═════╝     ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
+██████╗ ██╗████████╗██╗ ██╗██╗ ██╗██████╗ ███████╗███████╗ █████╗ ██████╗ ██████╗██╗ ██╗
+██╔════╝ ██║╚══██╔══╝██║ ██║██║ ██║██╔══██╗ ██╔════╝██╔════╝██╔══██╗██╔══██╗██╔════╝██║ ██║
+██║ ███╗██║ ██║ ███████║██║ ██║██████╔╝ ███████╗█████╗ ███████║██████╔╝██║ ███████║
+██║ ██║██║ ██║ ██╔══██║██║ ██║██╔══██╗ ╚════██║██╔══╝ ██╔══██║██╔══██╗██║ ██╔══██║
+╚██████╔╝██║ ██║ ██║ ██║╚██████╔╝██████╔╝ ███████║███████╗██║ ██║██║ ██║╚██████╗██║ ██║
+╚═════╝ ╚═╝ ╚═╝ ╚═╝ ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝╚══════╝╚═╝ ╚═╝╚═╝ ╚═╝ ╚═════╝╚═╝ ╚═╝
 https://github.com/gennaro-tedesco/gh-s
 
-
-███████╗██╗   ██╗███╗   ██╗ ██████╗    ███████╗ ██████╗ ██████╗ ██╗  ██╗███████╗
-██╔════╝╚██╗ ██╔╝████╗  ██║██╔════╝    ██╔════╝██╔═══██╗██╔══██╗██║ ██╔╝██╔════╝
-███████╗ ╚████╔╝ ██╔██╗ ██║██║         █████╗  ██║   ██║██████╔╝█████╔╝ ███████╗
-╚════██║  ╚██╔╝  ██║╚██╗██║██║         ██╔══╝  ██║   ██║██╔══██╗██╔═██╗ ╚════██║
-███████║   ██║   ██║ ╚████║╚██████╗    ██║     ╚██████╔╝██║  ██║██║  ██╗███████║
-╚══════╝   ╚═╝   ╚═╝  ╚═══╝ ╚═════╝    ╚═╝      ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+███████╗██╗ ██╗███╗ ██╗ ██████╗ ███████╗ ██████╗ ██████╗ ██╗ ██╗███████╗
+██╔════╝╚██╗ ██╔╝████╗ ██║██╔════╝ ██╔════╝██╔═══██╗██╔══██╗██║ ██╔╝██╔════╝
+███████╗ ╚████╔╝ ██╔██╗ ██║██║ █████╗ ██║ ██║██████╔╝█████╔╝ ███████╗
+╚════██║ ╚██╔╝ ██║╚██╗██║██║ ██╔══╝ ██║ ██║██╔══██╗██╔═██╗ ╚════██║
+███████║ ██║ ██║ ╚████║╚██████╗ ██║ ╚██████╔╝██║ ██║██║ ██╗███████║
+╚══════╝ ╚═╝ ╚═╝ ╚═══╝ ╚═════╝ ╚═╝ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═╝╚══════╝
 https://github.com/wei/pull
 
-██████╗ ███████╗███████╗██╗███╗   ██╗███████╗██████╗        ██████╗ ██╗████████╗██╗  ██╗██╗   ██╗██████╗ 
-██╔══██╗██╔════╝██╔════╝██║████╗  ██║██╔════╝██╔══██╗      ██╔════╝ ██║╚══██╔══╝██║  ██║██║   ██║██╔══██╗
-██████╔╝█████╗  █████╗  ██║██╔██╗ ██║█████╗  ██║  ██║█████╗██║  ███╗██║   ██║   ███████║██║   ██║██████╔╝
-██╔══██╗██╔══╝  ██╔══╝  ██║██║╚██╗██║██╔══╝  ██║  ██║╚════╝██║   ██║██║   ██║   ██╔══██║██║   ██║██╔══██╗
-██║  ██║███████╗██║     ██║██║ ╚████║███████╗██████╔╝      ╚██████╔╝██║   ██║   ██║  ██║╚██████╔╝██████╔╝
-╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═══╝╚══════╝╚═════╝        ╚═════╝ ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ 
-https://github.com/refined-github/refined-github
+██████╗ ███████╗███████╗██╗███╗ ██╗███████╗██████╗ ██████╗ ██╗████████╗██╗ ██╗██╗ ██╗██████╗
+██╔══██╗██╔════╝██╔════╝██║████╗ ██║██╔════╝██╔══██╗ ██╔════╝ ██║╚══██╔══╝██║ ██║██║ ██║██╔══██╗
+██████╔╝█████╗ █████╗ ██║██╔██╗ ██║█████╗ ██║ ██║█████╗██║ ███╗██║ ██║ ███████║██║ ██║██████╔╝
+██╔══██╗██╔══╝ ██╔══╝ ██║██║╚██╗██║██╔══╝ ██║ ██║╚════╝██║ ██║██║ ██║ ██╔══██║██║ ██║██╔══██╗
+██║ ██║███████╗██║ ██║██║ ╚████║███████╗██████╔╝ ╚██████╔╝██║ ██║ ██║ ██║╚██████╔╝██████╔╝
+╚═╝ ╚═╝╚══════╝╚═╝ ╚═╝╚═╝ ╚═══╝╚══════╝╚═════╝ ╚═════╝ ╚═╝ ╚═╝ ╚═╝ ╚═╝ ╚═════╝ ╚═════╝
 
--->                                                                                                        
-
-<!--
-**trinib/trinib** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
