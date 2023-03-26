@@ -116,8 +116,8 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: var(--color-primary);
-  color: var(--color-bg);
+  background-color: #2C4C9C;
+  color: #daa520;
 }
 
 img {
