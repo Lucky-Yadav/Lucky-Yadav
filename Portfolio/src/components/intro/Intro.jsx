@@ -44,11 +44,11 @@ const Intro = () => {
               <h5>Projects</h5>
               <small>90+ Completed Assignments</small>
             </article>
-            <article className="about__card">
+            {/* <article className="about__card">
               <FaCode className="about__icon" />
               <h5>Practical Learning</h5>
               <small>1000+ hrs</small>
-            </article>
+            </article> */}
           </div>
           <p>
             As a full-stack web developer with a specialization in MERN stack, I
