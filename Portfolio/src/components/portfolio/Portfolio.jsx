@@ -1,8 +1,8 @@
 import React from "react";
-import IMG1 from "../../assets/swiggy.png";
-import IMG2 from "../../assets/images/portfolio/Apollo.png";
-import IMG3 from "../../assets/images/portfolio/Unsplash.png";
-import IMG4 from "../../assets/images/portfolio/Acko.png";
+import IMG1 from "../../assets/swiggy1.png";
+import IMG2 from "../../assets/Apollo.png";
+import IMG3 from "../../assets/Unsplash.png";
+import IMG4 from "../../assets/Acko.png";
 
 import "./portfolio.css";
 
