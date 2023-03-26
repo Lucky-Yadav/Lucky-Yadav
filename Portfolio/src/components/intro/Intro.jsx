@@ -1,6 +1,7 @@
 import React from "react";
 import ReactAudioPlayer from "react-audio-player";
-import { FaAward, FaCode } from "react-icons/fa";
+import { FaAward } from "react-icons/fa";
+// FaCode
 import { VscFolderLibrary } from "react-icons/vsc";
 import ME from "../../assets/lucky.png";
 import "./intro.css";
