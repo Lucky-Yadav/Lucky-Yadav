@@ -51,19 +51,23 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            An independent and detail-oriented full-stack web developer with a
-            specialization in MERN stack. enthusiastic to learn new things and
-            always try to do my best in any work assigned and always tries to be
-            appreciated as well-performer.
-            <br />I believe everything is an Art when you put your consciousness
-            in it. <br />
-            “What separates design from art is that design is meant to be…
-            functional.”
+            As a full-stack web developer with a specialization in MERN stack, I
+            am highly independent and detail-oriented. I have experience
+            building everything from landing pages to APIs, using technologies
+            such as HTML, CSS, JavaScript, React, and Redux. I received my
+            training from MASAI SCHOOL and have honed my skills through hands-on
+            projects and coursework.
             <br />
-            – Cameron Moll <br />
-            <b>HTML, CSS, JavaScript, React, Redux </b> etc. building everything
-            from landing pages to APIs under the guidence of
-            <b> MASAI SCHOOL</b> .
+            <br />
+            I am enthusiastic about learning new technologies and techniques,
+            and I am always eager to take on new challenges. I believe that
+            everything is an art when you put your consciousness into it, and I
+            strive to create functional and visually appealing designs that meet
+            the needs of both clients and users.
+            <br />
+            <br />
+            In short, I am a dedicated and driven developer with a passion for
+            creating high-quality web applications.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
