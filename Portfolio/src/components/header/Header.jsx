@@ -12,8 +12,8 @@ const Header = () => {
         <h3>under maintainence</h3>
         <h1>I'm Lucky Yadav. </h1>
         <h5>
-          I will create a design that
-          <span className="text-light"> can give value to your product</span>
+          I can create a design that
+          <span className="text-light"> will give value to your product</span>
         </h5>
         <CTA />
         <a href="#contact" className="scroll__down">
