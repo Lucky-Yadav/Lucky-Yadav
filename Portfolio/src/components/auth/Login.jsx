@@ -1,5 +1,4 @@
 import { useState } from "react";
-import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import SendIcon from "@mui/icons-material/Send";
 import axios from "axios";
@@ -54,20 +53,6 @@ const Login = () => {
   }
   return (
     <div>
-      {/* <div className="div">
-        {Object.keys(loginData).map((el) => (
-          <TextField
-            key={el}
-            value={loginData[el]}
-            onChange={handlechange}
-            name={el}
-            id={el}
-            label={el.toLocaleUpperCase()}
-            variant="outlined"
-            required
-          />
-        ))}
-      </div> */}
       <div className="login_body">
         <div className="boxa">
           <span className="borderLine"></span>
@@ -100,21 +85,22 @@ const Login = () => {
               <Link>Forgot Password</Link>
               <Link>Sign up</Link>
             </div>
-            <input type="submit" value="login" />
+            {/* <input type="submit" value="login" /> */}
+            <div className="button">
+              <br />
+              <Button
+                type="submit"
+                value="login"
+                onClick={handlelogin}
+                variant="contained"
+                endIcon={<SendIcon />}
+              >
+                {token ? "log out" : "log in"}
+              </Button>
+            </div>
           </form>
         </div>
       </div>
-
-      {/* <div className="button">
-        <br />
-        <Button
-          onClick={handlelogin}
-          variant="contained"
-          endIcon={<SendIcon />}
-        >
-          {token ? "log out" : "log in"}
-        </Button>
-      </div> */}
     </div>
   );
 };
