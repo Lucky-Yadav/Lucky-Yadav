@@ -18,6 +18,10 @@ nav {
 .right_nav {
   display: flex;
 }
+.registration {
+  display: flex;
+  gap: 20px;
+}
 
 nav a {
   background: transparent;

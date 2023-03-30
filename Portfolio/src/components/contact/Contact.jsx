@@ -73,19 +73,27 @@ const Contact = () => {
           </div>
         </div>
 
-        <form ref={formRef} onSubmit={handleSubmit}>
+        <form ref={formRef} onSubmit={handleSubmit} className="form_contact">
           <input
             type="text"
             placeholder="Full Name"
             name="user_name"
             required
+            className="input_contact"
           />
-          <input type="text" placeholder="Email" name="user_email" required />
+          <input
+            type="text"
+            placeholder="Email"
+            name="user_email"
+            required
+            className="input_contact"
+          />
           <textarea
             placeholder="Message"
             rows="7"
             name="message"
             required
+            className="input_contact"
           ></textarea>
           <button type="submit" className="btn btn-primary">
             Send Message

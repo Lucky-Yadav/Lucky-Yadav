@@ -2,10 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
+import { BrowserRouter } from "react-router-dom";
+import { Provider } from "react-redux";
+import { store } from "./store/store";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// Create a root element in the DOM
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// Render the application inside the root element
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <BrowserRouter>
+    {/* Provider component is used to provide the store to the entire application */}
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </BrowserRouter>
 );
+
+// Report web vitals
+// reportWebVitals();

@@ -1,5 +1,5 @@
 import React from "react";
-import ReactAudioPlayer from "react-audio-player";
+// import ReactAudioPlayer from "react-audio-player";
 import { FaAward } from "react-icons/fa";
 // FaCode
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -16,12 +16,12 @@ const Intro = () => {
 
   return (
     <section id="about">
-      <ReactAudioPlayer
+      {/* <ReactAudioPlayer
         src="./RabbaMeharKari.mp3"
         id="backgroundMusic"
         autoPlay
         // controls
-      ></ReactAudioPlayer>
+      ></ReactAudioPlayer> */}
       <h5>Get to know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
