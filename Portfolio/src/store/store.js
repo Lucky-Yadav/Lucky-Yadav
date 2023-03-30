@@ -8,8 +8,4 @@ const rootReducer = combineReducers({
 });
 
 // Create the Redux store using the root reducer and apply the Redux thunk middleware for async actions
-export const store = createStore(
-  rootReducer,
-  compose(
-    applyMiddleware(thunk)
-);
+export const store = createStore(rootReducer, compose(applyMiddleware(thunk)));
