@@ -16,15 +16,21 @@
     min-height: 90vh;
     /* background: #23242a; */
   }
-  .boxa {
+  .boxa, .boxb {
     position: relative;
     width: 380px;
     height: 420px;
+    /* height: auto; */
     /* background: #1c1c1c; */
     border-radius: 8px;
     overflow: hidden;
   }
-  .boxa::before {
+  .boxb {
+    height: 500px;
+  }
+  .boxa::before,
+  .boxb::before
+   {
     content: '';
     position: absolute;
     top: -50%;
@@ -36,7 +42,13 @@
     transform-origin: bottom right;
     animation: animate1 6s linear infinite;
   }
-  .boxa::after {
+  .boxb::before {
+    height: 500px;
+    animation: animate2 6s linear infinite;
+  }
+  .boxa::after,
+  .boxb::after
+   {
     content: '';
     position: absolute;
     top: -50%;
@@ -49,12 +61,19 @@
     animation: animate1 6s linear infinite;
     animation-delay: -3s;    
   }
-  .borderLine {
+  .boxb::after {
+    height: 500px;
+    animation: animate2 6s linear infinite;
+    animation-delay: -3s;    
+  }
+  .borderLine, .borderLineB {
     position: absolute;
     top: 0;
     inset: 0;
   }
-  .borderLine::before {
+  .borderLine::before,
+  .borderLineB::before
+   {
     content: '';
     position: absolute;
     top: -50%;
@@ -67,7 +86,13 @@
     animation: animate1 6s linear infinite;
     animation-delay: -1.5s;
   }
-  .borderLine::after {
+  .borderLineB::before {
+    height: 500px;
+    animation: animate2 6s linear infinite;
+    animation-delay: -1.5s;
+  }
+  .borderLine::after,
+  .borderLineB::after {
     content: '';
     position: absolute;
     top: -50%;
@@ -80,6 +105,11 @@
     animation: animate1 6s linear infinite;
     animation-delay: -4.5s;
   }
+  .borderLineB::after {
+    height: 500px;
+    animation: animate2 6s linear infinite;
+    animation-delay: -4.5s;
+  }
   @keyframes animate1 {
     0%{
         transform: rotate(0deg);
@@ -88,10 +118,21 @@
         transform: rotate(-360deg);
     }
   }
-  .boxa form {
+  @keyframes animate2 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+  }
+  .boxa form,
+  .boxb form {
     position: absolute;
     inset: 4px;
-    background: #222;
+    /* background: #222; */
+    /* background: #2c4c9c; */
+    background: #000512;
     padding: 50px 40px;
     border-radius: 8px;
     z-index: 2;
@@ -167,7 +208,7 @@
  {
     color: #fff;
 }
-.boxa form input[type="submit"] {
+.boxa .boxb form input[type="submit"] {
     border: none;
     outline: none;
     padding: 9px 25px;
@@ -178,5 +219,4 @@
     font-weight: 600;
     width: 100px;
     margin-top: 10px;
-
 }

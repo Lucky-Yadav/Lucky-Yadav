@@ -38,14 +38,19 @@ const Login = () => {
       method: "post",
       url: "https://ideotic-backend-gilt.vercel.app/users/signin",
       data: loginData,
-    }).then((res) => {
-      //dispatch an action to change the login state after a successful login
-      dispatch(sucessLogin(res.data));
-      let token = res.data.token;
-      //store the login data in localstorage
-      localStorage.setItem("logindata", JSON.stringify(loginData));
-      console.log(res, token);
-    });
+    })
+      .then((res) => {
+        //dispatch an action to change the login state after a successful login
+        dispatch(sucessLogin(res.data));
+        let token = res.data.token;
+        //store the login data in localstorage
+        localStorage.setItem("logindata", JSON.stringify(loginData));
+        console.log(res, token);
+      })
+      .catch((err) => {
+        console.log(err.response.data.message);
+        alert(err.response.data.message);
+      });
   };
   //check if the user is already logged in and redirect if true
   if (token) {
@@ -66,21 +71,12 @@ const Login = () => {
                   name={el}
                   id={el}
                   required
+                  type={el}
                 />
                 <span>{el.toLocaleUpperCase()}</span>
                 <i></i>
               </div>
             ))}
-            {/* <div className="inputBox">
-              <input type="text" required="required" />
-              <span>Email</span>
-              <i></i>
-            </div>
-            <div className="inputBox">
-              <input type="password" required="required" />
-              <span>Password</span>
-              <i></i>
-            </div> */}
             <div className="links">
               <Link>Forgot Password</Link>
               <Link>Sign up</Link>
@@ -89,8 +85,7 @@ const Login = () => {
             <div className="button">
               <br />
               <Button
-                type="submit"
-                value="login"
+                // type="submit"
                 onClick={handlelogin}
                 variant="contained"
                 endIcon={<SendIcon />}

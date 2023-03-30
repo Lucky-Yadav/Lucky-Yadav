@@ -112,13 +112,17 @@ const Topbar = () => {
             <p className="p2">Contact</p>
           </a>
           {token ? (
-            <Box
-              onClick={handlelogout}
-              style={{ cursor: "pointer" }}
-              sx={{ flexGrow: 0 }}
-            >
-              Log Out
-            </Box>
+            <div className="registration">
+              <Link>
+                <Box
+                  onClick={handlelogout}
+                  style={{ cursor: "pointer" }}
+                  sx={{ flexGrow: 0 }}
+                >
+                  Log Out
+                </Box>
+              </Link>
+            </div>
           ) : (
             <div className="registration">
               <Link

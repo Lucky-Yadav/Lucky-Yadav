@@ -8,6 +8,7 @@ import { useDispatch } from "react-redux";
 import { loginloading, sucessLogin } from "../../store/auth/action";
 import { useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Auth.css";
 
 const Signup = () => {
@@ -40,10 +41,15 @@ const Signup = () => {
       method: "post",
       url: "https://ideotic-backend-gilt.vercel.app/users/signup",
       data: loginData,
-    }).then((res) => {
-      // call the sucessLogin action and pass the token as an argument
-      dispatch(sucessLogin(res.data.token));
-    });
+    })
+      .then((res) => {
+        // call the sucessLogin action and pass the token as an argument
+        dispatch(sucessLogin(res.data.token));
+      })
+      .catch((err) => {
+        console.log(err.response.data.message);
+        alert(err.response.data.message);
+      });
   };
   // if the token exists, navigate to the homepage
   if (token) {
@@ -52,30 +58,42 @@ const Signup = () => {
   // render the login form and the login button
   return (
     <div>
-      <div className="div">
-        {Object.keys(loginData).map((el) => (
-          <TextField
-            key={el}
-            value={loginData[el]}
-            onChange={handlechange}
-            name={el}
-            id={el}
-            label={el.toLocaleUpperCase()}
-            variant="outlined"
-            required
-          />
-        ))}
-      </div>
-
-      <div className="button">
-        <br />
-        <Button
-          onClick={handlelogin}
-          variant="contained"
-          endIcon={<SendIcon />}
-        >
-          {token ? "log out" : "Sign up"}
-        </Button>
+      <div className="login_body">
+        <div className="boxb">
+          <span className="borderLineB"></span>
+          <form action="">
+            <h2>Sign Up</h2>
+            {Object.keys(loginData).map((el) => (
+              <div className="inputBox" key={el}>
+                <input
+                  value={loginData[el]}
+                  onChange={handlechange}
+                  name={el}
+                  id={el}
+                  required
+                />
+                <span>{el.toLocaleUpperCase()}</span>
+                <i></i>
+              </div>
+            ))}
+            <div className="links">
+              <Link></Link>
+              <Link>Log in</Link>
+            </div>
+            {/* <input type="submit" value="login" /> */}
+            <div className="button">
+              <br />
+              <Button
+                // type="submit"
+                onClick={handlelogin}
+                variant="contained"
+                endIcon={<SendIcon />}
+              >
+                {token ? "log out" : "Sign up"}
+              </Button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );
