@@ -29,3 +29,13 @@ export const logoutsuccess = () => {
         type: LOGOUT_SUCCESS,
     };
 };
+
+// 
+// 
+
+export const SET_ACTIVE_NAV = "SET_ACTIVE_NAV";
+
+export const setActiveNav = (nav) => ({
+  type: SET_ACTIVE_NAV,
+  payload: nav,
+});

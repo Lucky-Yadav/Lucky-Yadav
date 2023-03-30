@@ -19,6 +19,10 @@ const Topbar = () => {
   const [activeNav, setActiveNav] = useState("#home");
   const [stickynav, setstickynav] = useState("false");
 
+  const events = useSelector((state) => state.auth);
+  // const Dispatch = useDispatch();
+  console.log(events);
+
   var timeout;
 
   document.onmousemove = function () {
