@@ -7,6 +7,7 @@ import { useDispatch } from "react-redux";
 import { loginloading, sucessLogin } from "../../store/auth/action";
 import { useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Auth.css";
 
 const Login = () => {
@@ -53,8 +54,7 @@ const Login = () => {
   }
   return (
     <div>
-      <div className="div">
-        {/*map through the loginData object and create a TextField component for each key*/}
+      {/* <div className="div">
         {Object.keys(loginData).map((el) => (
           <TextField
             key={el}
@@ -67,34 +67,54 @@ const Login = () => {
             required
           />
         ))}
-      </div>
-      <div className="boxa">
-        <form action="">
-          <h2>Log in</h2>
-          <div className="inputBox">
-            <input type="text" required="required" />
-            <span>email</span>
-            <i></i>
-          </div>
-          <div className="inputBox">
-            <input type="password" required="required" />
-            <span>email</span>
-            <i></i>
-          </div>
-        </form>
+      </div> */}
+      <div className="login_body">
+        <div className="boxa">
+          <span className="borderLine"></span>
+          <form action="">
+            <h2>Log in</h2>
+            {Object.keys(loginData).map((el) => (
+              <div className="inputBox" key={el}>
+                <input
+                  value={loginData[el]}
+                  onChange={handlechange}
+                  name={el}
+                  id={el}
+                  required
+                />
+                <span>{el.toLocaleUpperCase()}</span>
+                <i></i>
+              </div>
+            ))}
+            {/* <div className="inputBox">
+              <input type="text" required="required" />
+              <span>Email</span>
+              <i></i>
+            </div>
+            <div className="inputBox">
+              <input type="password" required="required" />
+              <span>Password</span>
+              <i></i>
+            </div> */}
+            <div className="links">
+              <Link>Forgot Password</Link>
+              <Link>Sign up</Link>
+            </div>
+            <input type="submit" value="login" />
+          </form>
+        </div>
       </div>
 
-      <div className="button">
+      {/* <div className="button">
         <br />
         <Button
           onClick={handlelogin}
           variant="contained"
           endIcon={<SendIcon />}
         >
-          {/*Check the login state and change the text of the button accordingly*/}
           {token ? "log out" : "log in"}
         </Button>
-      </div>
+      </div> */}
     </div>
   );
 };

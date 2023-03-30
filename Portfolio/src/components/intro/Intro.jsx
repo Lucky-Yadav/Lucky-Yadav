@@ -7,12 +7,12 @@ import ME from "../../assets/lucky.png";
 import "./intro.css";
 
 const Intro = () => {
-  function startMusic() {
-    document.getElementById("backgroundMusic").play();
-  }
-  function pauseMusic() {
-    document.getElementById("backgroundMusic").pause();
-  }
+  // function startMusic() {
+  //   document.getElementById("backgroundMusic").play();
+  // }
+  // function pauseMusic() {
+  //   document.getElementById("backgroundMusic").pause();
+  // }
 
   return (
     <section id="about">
@@ -27,8 +27,8 @@ const Intro = () => {
       <div className="container about__container">
         <div className="about__me">
           <div
-            onMouseEnter={() => startMusic()}
-            onMouseLeave={() => pauseMusic()}
+          // onMouseEnter={() => startMusic()}
+          // onMouseLeave={() => pauseMusic()}
           >
             <img src={ME} alt="me" className="about__me-image" />
           </div>
