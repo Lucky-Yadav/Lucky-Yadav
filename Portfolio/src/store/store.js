@@ -11,8 +11,5 @@ const rootReducer = combineReducers({
 export const store = createStore(
   rootReducer,
   compose(
-    applyMiddleware(thunk),
-    // This allows to use the Redux dev tools in browser
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-  )
+    applyMiddleware(thunk)
 );
