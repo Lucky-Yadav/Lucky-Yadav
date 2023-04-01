@@ -4,7 +4,7 @@ import {
   LOGIN_SUCCESS,
   LOGOUT_SUCCESS,
 } from "./actiontype";
-import { SET_ACTIVE_NAV } from "./action";
+import { SET_ACTIVE_NAV } from "./actiontype";
 //initial state of the login object
 const init = {
   loading: false,
@@ -19,6 +19,7 @@ const initialState = {
 export const events = (state = initialState, action) => {
   switch (action.type) {
     case SET_ACTIVE_NAV:
+      console.log(action.payload);
       return {
         ...state,
         activeNav: action.payload,

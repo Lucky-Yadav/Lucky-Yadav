@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 import axios from "axios";
 import Box from "@mui/material/Box";
 import { useDispatch } from "react-redux";
-import { sucessLogin } from "../../store/auth/action";
+import { setActiveNava, sucessLogin } from "../../store/auth/action";
 import { logoutsuccess } from "../../store/auth/action";
 // import { RiServiceLine } from 'react-icons/ri';
 // import { BiMessageSquareDetail } from 'react-icons/bi';
@@ -16,14 +16,19 @@ import { RiContactsBookLine } from "react-icons/ri";
 import "./topbar.css";
 
 const Topbar = () => {
-  const [activeNav, setActiveNav] = useState("#home");
+  // const [activeNav, setActiveNav] = useState("#home");
   const [stickynav, setstickynav] = useState("false");
 
-  const events = useSelector((state) => state.auth);
-  // const Dispatch = useDispatch();
-  console.log(events);
+  const activeNav = useSelector((state) => state.events.activeNav);
+  const Dispatch = useDispatch();
+  // console.log(activeNav);
 
   var timeout;
+
+  const setNavState = (state) => {
+    Dispatch(setActiveNava(state));
+    // console.log(activeNav);
+  };
 
   document.onmousemove = function () {
     if (timeout <= 5000) {
@@ -81,7 +86,7 @@ const Topbar = () => {
       <nav className="navb">
         <a
           href="/#home"
-          onClick={() => setActiveNav("#home")}
+          onClick={() => setNavState("#home")}
           className={activeNav === "#home" ? "active" : ""}
         >
           <p className="p2">HOME</p>
@@ -89,28 +94,28 @@ const Topbar = () => {
         <div className="right_nav">
           <a
             href="/#about"
-            onClick={() => setActiveNav("#about")}
+            onClick={() => setNavState("#about")}
             className={activeNav === "#about" ? "active" : ""}
           >
             <p className="p2">ABOUT</p>
           </a>
           <a
             href="/#experience"
-            onClick={() => setActiveNav("#experience")}
+            onClick={() => setNavState("#experience")}
             className={activeNav === "#experience" ? "active" : ""}
           >
             <p className="p2">SKILLS</p>
           </a>
           <a
             href="/#portfolio"
-            onClick={() => setActiveNav("#portfolio")}
+            onClick={() => setNavState("#portfolio")}
             className={activeNav === "#portfolio" ? "active" : ""}
           >
             <p className="p2">PROJECTS</p>
           </a>
           <a
             href="/#contact"
-            onClick={() => setActiveNav("#contact")}
+            onClick={() => setNavState("#contact")}
             className={activeNav === "#contact" ? "active" : ""}
           >
             <p className="p2">Contact</p>
@@ -131,7 +136,7 @@ const Topbar = () => {
             <div className="registration">
               <Link
                 to="/login"
-                onClick={() => setActiveNav("#login")}
+                onClick={() => setNavState("#login")}
                 className={activeNav === "#login" ? "active" : ""}
               >
                 <Box style={{ cursor: "pointer" }} sx={{ flexGrow: 0 }}>
@@ -140,7 +145,7 @@ const Topbar = () => {
               </Link>
               <Link
                 to="/signup"
-                onClick={() => setActiveNav("#Signup")}
+                onClick={() => setNavState("#Signup")}
                 className={activeNav === "#Signup" ? "active" : ""}
               >
                 <Box style={{ cursor: "pointer" }} sx={{ flexGrow: 0 }}>
@@ -162,7 +167,7 @@ const Topbar = () => {
           </a>
           <a
             href="/#about"
-            onClick={() => setActiveNav("#about")}
+            onClick={() => setNavState("#about")}
             className={activeNav === "#about" ? "active jssb" : "jssb"}
           >
             <AiOutlineUser size={15} />
@@ -170,7 +175,7 @@ const Topbar = () => {
           </a>
           <a
             href="/#experience"
-            onClick={() => setActiveNav("#experience")}
+            onClick={() => setNavState("#experience")}
             className={activeNav === "#experience" ? "active jssb" : "jssb"}
           >
             <BiBook size={15} />
@@ -178,7 +183,7 @@ const Topbar = () => {
           </a>
           <a
             href="/#portfolio"
-            onClick={() => setActiveNav("#portfolio")}
+            onClick={() => setNavState("#portfolio")}
             className={activeNav === "#portfolio" ? "active jssb" : "jssb"}
           >
             <VscProject size={15} />
@@ -186,7 +191,7 @@ const Topbar = () => {
           </a>
           <a
             href="/#contact"
-            onClick={() => setActiveNav("#contact")}
+            onClick={() => setNavState("#contact")}
             className={activeNav === "#contact" ? "active jssb" : "jssb"}
           >
             {" "}
