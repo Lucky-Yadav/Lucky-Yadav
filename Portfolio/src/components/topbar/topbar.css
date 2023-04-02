@@ -88,5 +88,5 @@ nav a.active {
 .login_active {
   position: sticky;
   background: transparent;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(1px);
 }

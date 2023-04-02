@@ -73,6 +73,7 @@ const Topbar = () => {
       });
     }
     if (location.pathname === "/login") {
+      console.log(1);
       setnavState(true);
       Dispatch(setActiveNava("#login"));
     } else if (location.pathname === "/signup") {
@@ -83,7 +84,7 @@ const Topbar = () => {
     }
 
     // eslint-disable-next-line
-  }, []);
+  }, [activeNav]);
 
   // useSelector hook to get the token from the Redux store
   const token = useSelector((state) => state.auth.token);
@@ -100,7 +101,7 @@ const Topbar = () => {
 
   return (
     <>
-      <nav className={navState === true ? "navb" : "navb login_active"}>
+      <nav className={navState === false ? "navb" : "navb login_active"}>
         <Link
           to={"/#home"}
           onClick={() => setNavState("#home")}
