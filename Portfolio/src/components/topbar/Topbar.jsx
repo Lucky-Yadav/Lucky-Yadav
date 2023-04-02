@@ -14,6 +14,7 @@ import { logoutsuccess } from "../../store/auth/action";
 // import { BiMessageSquareDetail } from 'react-icons/bi';
 import { RiContactsBookLine } from "react-icons/ri";
 import "./topbar.css";
+import { useLocation } from "react-router-dom";
 
 const Topbar = () => {
   // const [activeNav, setActiveNav] = useState("#home");
@@ -21,8 +22,12 @@ const Topbar = () => {
 
   const activeNav = useSelector((state) => state.events.activeNav);
   const Dispatch = useDispatch();
-  console.log(activeNav);
+  // console.log(activeNav);
   // window.location.replace(`/${activeNav}`);
+
+  const [navState, setnavState] = useState(false);
+  const location = useLocation();
+  // console.log(location.pathname);
 
   // const
   var timeout;
@@ -67,6 +72,16 @@ const Topbar = () => {
         // setisprocessing(false);
       });
     }
+    if (location.pathname === "/login") {
+      setnavState(true);
+      Dispatch(setActiveNava("#login"));
+    } else if (location.pathname === "/signup") {
+      setnavState(true);
+      Dispatch(setActiveNava("#signup"));
+    } else {
+      setnavState(false);
+    }
+
     // eslint-disable-next-line
   }, []);
 
@@ -85,7 +100,7 @@ const Topbar = () => {
 
   return (
     <>
-      <nav className="navb">
+      <nav className={navState === true ? "navb" : "navb login_active"}>
         <Link
           to={"/#home"}
           onClick={() => setNavState("#home")}
@@ -147,8 +162,8 @@ const Topbar = () => {
               </Link>
               <Link
                 to="/signup"
-                onClick={() => setNavState("#Signup")}
-                className={activeNav === "#Signup" ? "active" : ""}
+                onClick={() => setNavState("#signup")}
+                className={activeNav === "#signup" ? "active" : ""}
               >
                 <Box style={{ cursor: "pointer" }} sx={{ flexGrow: 0 }}>
                   Sign up

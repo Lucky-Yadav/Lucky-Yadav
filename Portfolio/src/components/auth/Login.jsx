@@ -65,16 +65,18 @@ const Login = () => {
             <h2>Log in</h2>
             {Object.keys(loginData).map((el) => (
               <div className="inputBox" key={el}>
-                <input
-                  value={loginData[el]}
-                  onChange={handlechange}
-                  name={el}
-                  id={el}
-                  required
-                  type={el}
-                />
-                <span>{el.toLocaleUpperCase()}</span>
-                <i></i>
+                <div className="login_input">
+                  <input
+                    value={loginData[el]}
+                    onChange={handlechange}
+                    name={el}
+                    id={el}
+                    required
+                    type={el}
+                  />
+                  <span>{el.toLocaleUpperCase()}</span>
+                  <i></i>
+                </div>
               </div>
             ))}
             <div className="links">

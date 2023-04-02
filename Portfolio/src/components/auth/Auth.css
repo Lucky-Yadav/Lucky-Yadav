@@ -6,15 +6,17 @@
     gap: 10px;
     background: white;
   }
-  /* .boxa {
-    background: white;
+  /* .navb {
+    background: transparent;
   } */
   .login_body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
+    min-height: 100vh;
+    margin-top: -63px;
     /* background: #23242a; */
+    background-image: url(../../assets/double-bubble-dark.png);
   }
   .boxa, .boxb {
     position: relative;
@@ -146,6 +148,9 @@
     /* overflow: hidden; */
   }
 
+  /* .login_input {
+
+  } */
 .inputBox input {
     position: relative;
     width: 100%;

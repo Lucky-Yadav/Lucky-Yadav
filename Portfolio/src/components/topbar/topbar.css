@@ -1,4 +1,4 @@
-nav {
+.navb, .jss1 {
   /* background: rgba(0, 0, 0, 0.3); */
   /* width: max-content; */
   display: flex;
@@ -84,4 +84,9 @@ nav a.active {
 .navb p {
   padding-right: 8px;
   background: transparent;
+}
+.login_active {
+  position: sticky;
+  background: transparent;
+  backdrop-filter: blur(3px);
 }
