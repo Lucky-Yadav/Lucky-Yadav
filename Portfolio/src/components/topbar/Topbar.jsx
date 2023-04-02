@@ -21,8 +21,10 @@ const Topbar = () => {
 
   const activeNav = useSelector((state) => state.events.activeNav);
   const Dispatch = useDispatch();
-  // console.log(activeNav);
+  console.log(activeNav);
+  // window.location.replace(`/${activeNav}`);
 
+  // const
   var timeout;
 
   const setNavState = (state) => {
@@ -84,42 +86,42 @@ const Topbar = () => {
   return (
     <>
       <nav className="navb">
-        <a
-          href="/#home"
+        <Link
+          to={"/#home"}
           onClick={() => setNavState("#home")}
           className={activeNav === "#home" ? "active" : ""}
         >
-          <p className="p2">HOME</p>
-        </a>
+          <p className="p2">Home</p>
+        </Link>
         <div className="right_nav">
-          <a
-            href="/#about"
+          <Link
+            to={"/#about"}
             onClick={() => setNavState("#about")}
             className={activeNav === "#about" ? "active" : ""}
           >
-            <p className="p2">ABOUT</p>
-          </a>
-          <a
-            href="/#experience"
+            <p className="p2">About</p>
+          </Link>
+          <Link
+            to={"/#experience"}
             onClick={() => setNavState("#experience")}
             className={activeNav === "#experience" ? "active" : ""}
           >
-            <p className="p2">SKILLS</p>
-          </a>
-          <a
-            href="/#portfolio"
+            <p className="p2">Skills</p>
+          </Link>
+          <Link
+            to={"/#portfolio"}
             onClick={() => setNavState("#portfolio")}
             className={activeNav === "#portfolio" ? "active" : ""}
           >
-            <p className="p2">PROJECTS</p>
-          </a>
-          <a
-            href="/#contact"
+            <p className="p2">Projects</p>
+          </Link>
+          <Link
+            to={"#contact"}
             onClick={() => setNavState("#contact")}
             className={activeNav === "#contact" ? "active" : ""}
           >
             <p className="p2">Contact</p>
-          </a>
+          </Link>
           {token ? (
             <div className="registration">
               <Link>

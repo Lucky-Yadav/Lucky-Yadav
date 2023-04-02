@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Button from "@mui/material/Button";
-import SendIcon from "@mui/icons-material/Send";
+// import SendIcon from "@mui/icons-material/Send";
 import axios from "axios";
 import { useDispatch } from "react-redux";
 import { loginloading, sucessLogin } from "../../store/auth/action";
@@ -79,18 +79,19 @@ const Login = () => {
             ))}
             <div className="links">
               <Link>Forgot Password</Link>
-              <Link>Sign up</Link>
+              <Link to={"/signup"}>Sign up</Link>
             </div>
             {/* <input type="submit" value="login" /> */}
             <div className="button">
               <br />
               <Button
-                // type="submit"
+                className="Login_Button"
                 onClick={handlelogin}
-                variant="contained"
-                endIcon={<SendIcon />}
+                variant="outlined"
+                // disabled
+                // endIcon={<SendIcon />}
               >
-                {token ? "log out" : "log in"}
+                {token ? "log out" : "login"}
               </Button>
             </div>
           </form>

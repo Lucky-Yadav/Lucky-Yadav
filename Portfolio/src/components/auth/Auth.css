@@ -80,7 +80,7 @@
     left: -50%;
     width: 380px;
     height: 420px;
-    background: linear-gradient(0deg, transparent, transparent, #ff2770, #ff2770, #ff2770);
+    background: linear-gradient(0deg, transparent, transparent, #daa520, #ff2770, #ff2770);
     z-index: 1;
     transform-origin: bottom right;
     animation: animate1 6s linear infinite;
@@ -99,7 +99,7 @@
     left: -50%;
     width: 380px;
     height: 420px;
-    background: linear-gradient(0deg, transparent, transparent, #ff2770, #ff2770, #ff2770);
+    background: linear-gradient(0deg, transparent, transparent, #daa520, #ff2770, #ff2770);
     z-index: 1;
     transform-origin: bottom right;
     animation: animate1 6s linear infinite;
@@ -210,7 +210,8 @@
  {
     color: #fff;
 }
-.boxa .boxb form input[type="submit"] {
+.boxa form input[type="submit"],
+.boxb form input[type="submit"] {
     border: none;
     outline: none;
     padding: 9px 25px;
@@ -222,3 +223,6 @@
     width: 100px;
     margin-top: 10px;
 }
+/* .Login_Button {
+  background: transparent;
+} */
