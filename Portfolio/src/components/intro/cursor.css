@@ -1,0 +1,24 @@
+.cursor {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #c6c6c6;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%) translate(10px, 10px);
+    transition: .1s;
+    background-image: url("../../assets/lucky.png");
+    background-size: contain;
+}
+.cursor2 {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: 1px solid #c6c6c6;
+    border-radius: 50%;
+    /* left: 0;
+    top: 0; */
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .15s;
+}

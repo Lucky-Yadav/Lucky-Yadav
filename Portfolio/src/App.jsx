@@ -17,6 +17,7 @@ const App = () => {
         {/* Route for Signup Component */}
         <Route path="/Signup" element={<Signup />}></Route>
       </Routes>
+      
     </>
   );
 };

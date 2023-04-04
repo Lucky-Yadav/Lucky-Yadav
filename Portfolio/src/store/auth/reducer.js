@@ -5,6 +5,7 @@ import {
   LOGOUT_SUCCESS,
 } from "./actiontype";
 import { SET_ACTIVE_NAV } from "./actiontype";
+import { SET_STICKY_NAV } from "./actiontype";
 //initial state of the login object
 const init = {
   loading: false,
@@ -15,6 +16,9 @@ const init = {
 const initialState = {
   activeNav: "#home",
 };
+const initialStateNav = {
+  stickynav: "false",
+};
 
 export const events = (state = initialState, action) => {
   switch (action.type) {
@@ -23,6 +27,17 @@ export const events = (state = initialState, action) => {
       return {
         ...state,
         activeNav: action.payload,
+      };
+    default:
+      return state;
+  }
+};
+export const nav_events = (state = initialStateNav, action) => {
+  switch (action.type) {
+    case SET_STICKY_NAV:
+      return {
+        ...state,
+        stickynav: action.payload,
       };
     default:
       return state;

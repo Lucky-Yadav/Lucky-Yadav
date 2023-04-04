@@ -5,6 +5,7 @@ import {
   LOGIN_ERROR,
   LOGOUT_SUCCESS,
   SET_ACTIVE_NAV,
+  SET_STICKY_NAV,
 } from "./actiontype";
 
 // Action to set the state to loading when login is initiated
@@ -41,7 +42,11 @@ export const logoutsuccess = () => {
 
 // export const SET_ACTIVE_NAV = "SET_ACTIVE_NAV";
 
-export const setActiveNava = (nav) => ({
+export const setActiveNav = (nav) => ({
   type: SET_ACTIVE_NAV,
+  payload: nav,
+});
+export const setstickynav = (nav) => ({
+  type: SET_STICKY_NAV,
   payload: nav,
 });

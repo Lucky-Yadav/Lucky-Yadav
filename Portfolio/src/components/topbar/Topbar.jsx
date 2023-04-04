@@ -8,7 +8,11 @@ import { useSelector } from "react-redux";
 import axios from "axios";
 import Box from "@mui/material/Box";
 import { useDispatch } from "react-redux";
-import { setActiveNava, sucessLogin } from "../../store/auth/action";
+import {
+  setActiveNav,
+  sucessLogin,
+  setstickynav,
+} from "../../store/auth/action";
 import { logoutsuccess } from "../../store/auth/action";
 // import { RiServiceLine } from 'react-icons/ri';
 // import { BiMessageSquareDetail } from 'react-icons/bi';
@@ -18,10 +22,15 @@ import { useLocation } from "react-router-dom";
 
 const Topbar = () => {
   // const [activeNav, setActiveNav] = useState("#home");
-  const [stickynav, setstickynav] = useState("false");
+  // const [stickynav, setstickynav] = useState("false");
 
   const activeNav = useSelector((state) => state.events.activeNav);
+  const stickynav = useSelector((state) => state.nav_events.stickynav);
+  const token = useSelector((state) => state.auth.token);
+  const dispatch = useDispatch();
   const Dispatch = useDispatch();
+  const DisPatch = useDispatch();
+  const [Login_path, setLogin_path] = useState(false);
   // console.log(activeNav);
   // window.location.replace(`/${activeNav}`);
 
@@ -29,34 +38,41 @@ const Topbar = () => {
   const location = useLocation();
   // console.log(location.pathname);
 
-  // const
-  var timeout;
+  let timeoutId;
 
   const setNavState = (state) => {
-    Dispatch(setActiveNava(state));
+    Dispatch(setActiveNav(state));
     // console.log(activeNav);
   };
+  // console.log(stickynav);
+  // console.log(setstickynav);
 
-  document.onmousemove = function () {
-    if (timeout <= 5000) {
-      setstickynav("false");
-    }
-    clearTimeout(timeout);
+  if (Login_path === false) {
+    document.onmousemove = function () {
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+      }
 
-    timeout = setTimeout(() => {
-      setstickynav("true");
-    }, 8000);
-  };
-  document.onscroll = function () {
-    if (timeout <= 5000) {
-      setstickynav("false");
-    }
-    clearTimeout(timeout);
+      timeoutId = setTimeout(() => {
+        DisPatch(setstickynav("true"));
+      }, 8000);
 
-    timeout = setTimeout(() => {
-      setstickynav("true");
-    }, 8000);
-  };
+      DisPatch(setstickynav("false"));
+    };
+    document.onscroll = function () {
+      if (timeoutId) {
+        DisPatch(setstickynav("false"));
+      }
+      clearTimeout(timeoutId);
+
+      timeoutId = setTimeout(() => {
+        DisPatch(setstickynav("true"));
+      }, 8000);
+    };
+  } else {
+    DisPatch(setstickynav("true"));
+  }
+
   // useEffect hook to check for login data in localStorage
   useEffect(() => {
     let logindata = JSON.parse(localStorage.getItem("logindata"));
@@ -73,23 +89,22 @@ const Topbar = () => {
       });
     }
     if (location.pathname === "/login") {
-      console.log(1);
+      setLogin_path(true);
       setnavState(true);
-      Dispatch(setActiveNava("#login"));
+      DisPatch(setstickynav("true"));
+      Dispatch(setActiveNav("#login"));
     } else if (location.pathname === "/signup") {
       setnavState(true);
-      Dispatch(setActiveNava("#signup"));
+      Dispatch(setActiveNav("#signup"));
     } else {
       setnavState(false);
+      setLogin_path(false);
     }
 
     // eslint-disable-next-line
   }, [activeNav]);
 
   // useSelector hook to get the token from the Redux store
-  const token = useSelector((state) => state.auth.token);
-
-  const dispatch = useDispatch();
 
   // function to handle logout button click
   const handlelogout = () => {
