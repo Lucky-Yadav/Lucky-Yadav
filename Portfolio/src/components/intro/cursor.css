@@ -5,16 +5,17 @@
     border: 1px solid #c6c6c6;
     border-radius: 50%;
     pointer-events: none;
-    transform: translate(-50%, -50%) translate(10px, 10px);
-    transition: .1s;
-    background-image: url("../../assets/lucky.png");
-    background-size: contain;
+    transform: translate(-50%, -50%) translate(-12px, -12px);
+    transition: .2s ease;
+    /* background-image: url("../../assets/double-bubble-dark.png"); */
+    /* background-size: contain; */
+    overflow: hidden;
 }
 .cursor2 {
     position: fixed;
     width: 8px;
     height: 8px;
-    background-color: 1px solid #c6c6c6;
+    background-color: 1px solid #e72323;
     border-radius: 50%;
     /* left: 0;
     top: 0; */
@@ -22,3 +23,85 @@
     transform: translate(-50%, -50%);
     transition: .15s;
 }
+
+
+.wave_box {
+    height: 30px;
+    position: relative;
+  }
+  
+  .waves {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .parallax {
+    animation: wave 3s infinite linear;
+    -webkit-animation: wave 3s infinite linear;
+    -moz-animation: wave 3s infinite linear;
+    -o-animation: wave 3s infinite linear;
+    -ms-animation: wave 3s infinite linear;
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: translate(-90px, 0);
+    }
+    100% {
+      transform: translate(85px, 0);
+    }
+  }
+  
+  @-moz-keyframes wave {
+    0% {
+      transform: translate(-90px, 0);
+    }
+    100% {
+      transform: translate(85px, 0);
+    }
+  }
+  
+  @-webkit-keyframes wave {
+    0% {
+      transform: translate(-90px, 0);
+    }
+    100% {
+      transform: translate(85px, 0);
+    }
+  }
+  
+  @-o-keyframes wave {
+    0% {
+      transform: translate(-90px, 0);
+    }
+    100% {
+      transform: translate(85px, 0);
+    }
+  }
+  
+  @-ms-keyframes wave {
+    0% {
+      transform: translate(-90px, 0);
+    }
+    100% {
+      transform: translate(85px, 0);
+    }
+  }
+  .waves {
+    animation: waves 10s linear infinite;
+  }
+  
+  .waves-moving {
+    animation-play-state: running;
+  }
+  
+  @keyframes waves {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-200px, 0, 0);
+    }
+  }
