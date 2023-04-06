@@ -10,13 +10,12 @@ function Cursor() {
 
   const [cursorPos, setCursorPos] = useState({ x: 30, y: 30 });
 
-
-  useEffect(() => {
-     
   const handleMouseMove = (e) => {
     setIsMoving(true);
     setCursorPos({ x: e.clientX + 30, y: e.clientY + 30 });
   };
+
+  useEffect(() => {
     const handleMouseStop = () => {
       setTimeout(() => {
         setIsMoving(false);
